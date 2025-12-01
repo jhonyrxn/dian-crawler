@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: dian-crawler-app
+    env: static
+    staticPublishPath: .
