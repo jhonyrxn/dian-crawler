@@ -1,3 +1,10 @@
+fastapi
+uvicorn[standard]
 requests
 beautifulsoup4
-python-dotenv
+sqlalchemy
+pydantic
+apscheduler
+python-multipart
+jinja2
+pytz
