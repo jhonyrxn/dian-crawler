@@ -1,0 +1,12 @@
+body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:#f7f7fb;color:#111;margin:0;padding:0}
+header{padding:18px;background:#0b5fff;color:#fff}
+header h1{margin:0;font-size:20px}
+main{padding:16px}
+.controls{display:flex;gap:8px;margin-bottom:12px}
+input#q{flex:1;padding:8px;border-radius:6px;border:1px solid #d0d7de}
+button{padding:8px 12px;border-radius:6px;border:none;background:#0b5fff;color:#fff;cursor:pointer}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:6px;overflow:hidden}
+th,td{padding:10px;border-bottom:1px solid #eef0f4;text-align:left}
+th{background:#f0f4ff}
+a.linkbtn{display:inline-block;padding:6px 8px;background:#0b5fff;color:#fff;border-radius:4px;text-decoration:none}
+footer{padding:12px;text-align:center;color:#666;font-size:13px}
