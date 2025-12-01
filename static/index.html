@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>DIAN - Notificaciones (Bot)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Bot DIAN — Notificaciones / Calendario</h1>
+    <p>Últimas publicaciones detectadas por el bot. (Fuente: DIAN)</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input id="q" placeholder="Buscar por título o url..." />
+      <button id="refresh">Refrescar</button>
+    </div>
+
+    <table id="results">
+      <thead>
+        <tr><th>Fecha (UTC)</th><th>Título</th><th>Resumen</th><th>Enlace</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <footer>
+    <small>Bot ejecutado diariamente. Fuente configurable.</small>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
